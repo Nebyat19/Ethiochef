@@ -11,16 +11,16 @@ Ethiochef is a recipe website built with Laravel, offering authentic Ethiopian r
 
 ## Screenshots
 
-![Screenshot 1: Homepage](/screenshots/Ethiochef1.jpg)
+![Screenshot 1: Homepage](/screenshot/Ethiochef1.jpg)
 *Homepage*
 
-![Screenshot 2: Recipe Page](/screenshots/Ethiochef2.jpg)
+![Screenshot 2: Recipe Page](/screenshot/Ethiochef2.jpg)
 *Recipe Page*
 
-![Screenshot 3: Payment Integration](/screenshots/Ethiochef3.jpg)
+![Screenshot 3: Payment Integration](/screenshot/Ethiochef3.jpg)
 *Payment Integration*
 
-![Screenshot 4: Language Options](/screenshots/Ethiochef4.jpg)
+![Screenshot 4: Language Options](/screenshot/Ethiochef4.jpg)
 *Language Options*
 
 ## Installation
