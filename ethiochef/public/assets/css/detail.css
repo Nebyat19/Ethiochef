@@ -1,0 +1,158 @@
+/* styles.css */
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Amatic SC", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+  }
+:root {
+    --color-default: #212529;
+    --color-primary: #FFB30E;
+    --color-secondary: #37373f;
+    --color-red:#ec2727;
+  }
+/* Body */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Card */
+  .card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card title */
+  .card-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  /* Card meta info */
+  .card-text {
+    color: #6c757d;
+    margin-bottom: 10px;
+  }
+  
+  /* Ingredients and Steps */
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+  
+  /* Share buttons */
+  .mt-4 h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: var(--font-primary);
+    color: #252525;
+
+  }
+  .col-md-4 h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: var(--font-secondary);
+    color: #7a7575 !important;
+  }
+  li{
+    color: var(--color-secondary);
+    font-family: var(--font-default);
+    font-size: 20px;
+
+  }
+  .mt-4 {
+    margin-top: 20px;
+  }
+  .input-group .btn{
+    background-color: var(--color-red) !important;
+  }
+  /* Recent Posts */
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Pagination */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  /* Social media buttons */
+  .btn-outline-primary,
+  .btn-outline-info,
+  .btn-outline-danger {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .btn-outline-primary:hover,
+  .btn-outline-info:hover,
+  .btn-outline-danger:hover {
+    border-color:var(--color-primary ) !important;
+  }
+  
+  /* Interactive */
+  .card:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  }
+   .d-flex .mb-1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: var(--font-secondary);
+    color: #4d4a4a !important;
+  }
+  .list-group-item {
+    position: relative;
+  }
+  .list-group img{
+    width: 100px;
+    height: 100px;
+  }
+  .card-link {
+    text-align: center;
+  align-content: center;
+    background-color: var(--color-primary) !important;
+    color: #f0f0f0 !important;
+    border-radius: 5px;
+    width: 80% !important;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: 700;
+  }
+  .list-group-item .card-img-top {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .list-group-item h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .list-group-item .card-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .list-group-item .card-link:hover {
+    color: var(--color-secondary);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      margin-bottom: 30px;
+    }
+  }
+  
