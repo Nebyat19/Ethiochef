@@ -11,23 +11,23 @@ Ethiochef is a recipe website built with Laravel, offering authentic Ethiopian r
 
 ## Screenshots
 
-![Screenshot 1: Homepage](/screenshots/homepage.png)
+![Screenshot 1: Homepage](/screenshots/Ethiochef1.jpg)
 *Homepage*
 
-![Screenshot 2: Recipe Page](/screenshots/recipe_page.png)
+![Screenshot 2: Recipe Page](/screenshots/Ethiochef2.jpg)
 *Recipe Page*
 
-![Screenshot 3: Payment Integration](/screenshots/payment_integration.png)
+![Screenshot 3: Payment Integration](/screenshots/Ethiochef3.jpg)
 *Payment Integration*
 
-![Screenshot 4: Language Options](/screenshots/language_options.png)
+![Screenshot 4: Language Options](/screenshots/Ethiochef4.jpg)
 *Language Options*
 
 ## Installation
 
 1. Clone the repository:
    
-  git clone https://github.com/nebyat19/ethiochef.git
+   git clone https://github.com/nebyat19/ethiochef.git
 
 2. Navigate to the `ethiochef` directory:
 
@@ -38,11 +38,12 @@ Ethiochef is a recipe website built with Laravel, offering authentic Ethiopian r
 4. Configure your environment variables:
 
 5. Set up your database in the `.env` file and run migrations:
-  php artisan migrate
+   
+   php artisan migrate
 
-6. Serve the application:
+7. Serve the application:
 
-  php artisan serve
+   php artisan serve
 
 7. Access the website at `http://localhost:8000` in your web browser.
 
